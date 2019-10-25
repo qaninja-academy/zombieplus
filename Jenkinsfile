@@ -1,5 +1,5 @@
 pipeline {
-    agente any
+    agent any
     stages {
         stage('Build') {
             sh "npm install"
