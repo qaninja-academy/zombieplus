@@ -6,7 +6,7 @@
   "scripts": {
     "test:login": ".\\node_modules\\.bin\\nightwatch.cmd --group login",
     "test:nologin": ".\\node_modules\\.bin\\nightwatch.cmd --skipgroup login",
-    "test:smoke": ".\\node_modules\\.bin\\nightwatch.cmd --tag smoke --env=headless",
+    "test:smoke": ".\\node_modules\\.bin\\nightwatch.cmd --tag smoke",
     "stage:smoke": ".\\node_modules\\.bin\\nightwatch.cmd --tag smoke --env=stage",
     "test:notag": ".\\node_modules\\.bin\\nightwatch.cmd --skiptags smoke,404",
     "test": ".\\node_modules\\.bin\\nightwatch.cmd",
@@ -27,6 +27,7 @@
     "babel-plugin-add-module-exports": "^1.0.2",
     "babel-preset-es2015": "^6.24.1",
     "chromedriver": "^77.0.0",
+    "faker": "^4.1.0",
     "geckodriver": "^1.19.0",
     "nightwatch": "^1.2.4",
     "pg": "^7.12.1"
