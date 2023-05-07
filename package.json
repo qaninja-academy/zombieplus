@@ -28,7 +28,7 @@
     "babel-preset-es2015": "^6.24.1",
     "chromedriver": "^80.0.1",
     "faker": "^4.1.0",
-    "geckodriver": "^1.19.0",
+    "geckodriver": "^1.22.3",
     "nightwatch": "^1.2.4",
     "pg": "^7.12.1"
   }
